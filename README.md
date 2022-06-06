@@ -7,6 +7,6 @@ To avoid falling, the cyclist must turn the handlebars in the direction of the s
 For a given speed and lean angle, there is a steering angle that compensates for gravity. It is **balance angle** of steer.
 There are two ways to control in this project: Control by lean and steer control. In both cases, I use a PID controller that brings the system to a state of equilibrium at a given angle of inclination or steering angle.
 
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/OlC7LPSNq_E/0.jpg)](https://www.youtube.com/watch?v=OlC7LPSNq_E)
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/51N4ieE62lc/0.jpg)](https://www.youtube.com/watch?v=51N4ieE62lc)
 ## Manual balance
 Now we can see that Unity's physics allows you to control the bike with the steering angle. This is done by the PID controller. But I would like to do it manually. I tried and nothing worked for me. It seems that to maintain balance, it is not enough to see. You need to use the vestibular system. I hope the Racing wheel will allow some sort of compromise between automatic and manual balance. I hope the Racing wheel with feedback will allow some sort of compromise between automatic and manual balance. 
